@@ -24,29 +24,28 @@
 </head> 
 <body> 
 <!-- Content --> 
-    <h1>CRUD Fruites</h1>
-
-    <div>
-      <table id="taula">
-        <tr>
-          <th>Fruita</th>
-        </tr>
-
+<h1>CRUD de Fruites</h1>
+    
+<div>
+    <table id="taula">
         <thead>
-          <tbody>
-            <!--Aquí sens afegiran les fruites automàticament-->
-          </tbody>
+            <tr>
+                <th>Fruita</th>
+            </tr>
         </thead>
-      </table>
-    </div>
+        <tbody>
+            <!-- Aquí s'afegiran les files dinàmicament -->
+        </tbody>
+    </table>
+</div>
 
-    <div id="formulari">
-      <input type="text" name="" id="nomFruita" placeholder="Nom de la fruita">
-      <button onclick="crear()">Crear</button>
-      <button onclick="modificar()">Modificar</button>
-      <button onclick="borrar()">Borrar</button>
-    </div>
+<div id="formulari">
+    <input type="text" id="nomFruita" placeholder="Nom de la Fruita">
+    <button onclick="crear()">Crear</button>
+    <button onclick="modificar()">Modificar</button>
+    <button onclick="borrar()">Borrar</button>
+</div>
 
-    <script src="/js/fruites.js"></script>
+<script src="js/fruites.js"></script> <!-- Vincular el JS -->
 </body> 
 </html> 
